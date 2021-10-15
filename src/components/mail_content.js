@@ -1,4 +1,4 @@
-function Mail_content() {
+function MailContent() {
   return (
     <div>
       <h3>mail content</h3>
@@ -6,4 +6,4 @@ function Mail_content() {
   );
 }
 
-export default Mail_content;
+export default MailContent;

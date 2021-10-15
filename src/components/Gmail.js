@@ -1,6 +1,6 @@
 import Header from "./Header";
 import Sidebar from "./Sidebar";
-import Gmail_content from "./Mail";
+import GmailContent from "./Mail";
 import Widgets from "./widgets";
 import "./css/Gmail.css";
 
@@ -10,7 +10,7 @@ function Gmail() {
       <Header />
       <div className="gmail_body">
         <Sidebar />
-        <Gmail_content />
+        <GmailContent />
         <Widgets />
       </div>
     </div>

@@ -1,4 +1,4 @@
-import Mail_content from "./mail_content";
+import MailContent from "./mail_content";
 
 import { Checkbox } from "@material-ui/core";
 import { ArrowDropDown } from "@material-ui/icons";
@@ -16,7 +16,7 @@ import ForumIcon from "@material-ui/icons/Forum";
 
 import "./css/Mail.css";
 
-function Gmail_content() {
+function GmailContent() {
   return (
     <div className="mail">
       <div className="mail_top">
@@ -39,29 +39,29 @@ function Gmail_content() {
           <h3>Primary</h3>
         </div>
         <div className="mail_container">
-          <InboxIcon />
+          <PeopleAltIcon />
           <h3>Social</h3>
         </div>
         <div className="mail_container">
-          <PeopleAltIcon />
+          <LocalOfferIcon />
           <h3>Promotion</h3>
         </div>
         <div className="mail_container">
-          <InboxIcon />
+          <InfoIcon />
           <h3>Updates</h3>
         </div>
         <div className="mail_container">
-          <InboxIcon />
+          <ForumIcon />
           <h3>Forums</h3>
         </div>
       </div>
       <div className="main_mail_container">
         <div className="individual_mail_container">
-          <Mail_content />
+          <MailContent />
         </div>
       </div>
     </div>
   );
 }
 
-export default Gmail_content;
+export default GmailContent;
