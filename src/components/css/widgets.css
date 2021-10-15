@@ -1,0 +1,15 @@
+.widgets {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  align-items: center;
+}
+
+.pic {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.pic > img {
+  width: 1.5rem;
+}

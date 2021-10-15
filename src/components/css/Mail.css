@@ -1,0 +1,65 @@
+.mail {
+  display: flex;
+  flex-direction: column;
+  flex: 0.98;
+  border-right: 2px solid rgba(98, 98, 98);
+  padding: 2px;
+}
+
+.mail_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  /* background: white; */
+}
+
+.mail_top_left > .MuiSvgIcon-root {
+  margin-right: 12px;
+  color: rgba(255, 255, 255, 0.575);
+}
+
+.mail_top_left > .checkbox {
+  border: rgba(255, 255, 255, 0.575);
+}
+
+.mail_top_right > .MuiSvgIcon-root {
+  margin-right: 12px;
+  color: rgba(255, 255, 255, 0.575);
+}
+
+.checkbox {
+  margin-top: -12px !important;
+}
+
+.mail_bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 10px;
+}
+
+.mail_container {
+  background: rgb(63, 63, 63);
+  color: #ddd;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: row;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 2px solid rgb(46, 46, 46);
+}
+
+.mail_container:hover {
+  background: rgb(46, 46, 46);
+}
+
+.main_mail_container {
+  overflow: scroll;
+  -ms-overflow-style: none;
+}
+
+.main_mail_container::-webkit-scrollbar {
+  display: none;
+}
