@@ -1,0 +1,64 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.26);
+}
+
+.header_left {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+}
+
+.header_left > img {
+  margin-left: 10px;
+}
+
+.header_middle {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+}
+
+.header_search_container {
+  display: flex;
+  padding: 10px;
+  background: hsla(0, 0%, 67.8%, 0.486);
+  border-radius: 5px;
+  width: 40vw;
+  flex: 1;
+}
+
+.header_search_container > input {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  font-size: large;
+  color: #eee;
+  flex: 1;
+}
+
+.header_search_container > input::placeholder {
+  color: #ddd;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.header_right_icons > .MuiSvgIcon-root {
+  margin-left: 1.5vw;
+}
+
+.headerAvatar {
+  margin-left: 10px;
+}
+
+.MuiSvgIcon-root {
+  color: white;
+  cursor: pointer;
+}
