@@ -1,0 +1,155 @@
+.accord_left {
+  display: flex;
+  align-items: center;
+  flex: 0.4;
+}
+
+.accord_left > .MuiSvgIcon-root {
+  margin-left: 5px;
+}
+
+.accordian {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.accord_mid {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* .MuiPaper-root {
+  color: rgb(0, 0, 0) !important;
+  border-bottom: 1px solid #aaa;
+  background-color: #000 !important;
+  opacity: 0.8;
+} */
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .MuiPaper-root {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.mail_expand {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.mail_top {
+  display: flex;
+  align-items: center;
+}
+
+.mail_top > p {
+  font-weight: 500;
+  margin: 10px 60px;
+}
+
+.mail_top_icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.mail_top_icons > .MuiSvgIcon-root {
+  color: black;
+  margin-right: 20px;
+}
+
+.mail_info {
+  display: flex;
+  margin-left: 10px;
+}
+
+.mail_info_details {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.mail_info_details > h4 {
+  font-size: 1.1rem;
+}
+
+.mail_info_details > h4 > small {
+  color: rgb(42, 42, 42);
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+.senders_info_date {
+  margin-right: 10px;
+  display: flex;
+}
+
+.time_stamp {
+  display: flex;
+}
+
+.time_stamp > .MuiSvgIcon-root {
+  color: black;
+  margin-left: 10px;
+}
+
+.mail_content {
+  margin-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.253);
+  margin-left: 10px;
+}
+
+.real_content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  flex: 1;
+}
+
+.reply_forword_mail {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  bottom: 10px;
+}
+
+.reply_mail,
+.forward_mail {
+  display: flex;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reply_mail:hover {
+  opacity: 0.8;
+}
+
+.forward_mail:hover {
+  opacity: 0.8;
+}
+
+.reply_mail > a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  margin-left: 5px;
+}
+
+.forward_mail > a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  margin-left: 5px;
+}
